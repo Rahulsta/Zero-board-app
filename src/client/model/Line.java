@@ -2,7 +2,8 @@ package client.model;
 
 import java.awt.*;
 
-public class Line {
+public class Line implements java.io.Serializable {
+    private static final long serialVersionUID = 1L;
     private int x1,y1,x2,y2;
     private Color brushColor;
     private int brushSize;
